@@ -36,7 +36,7 @@ void loop() {
       case 0xBA100AA0:  //Button 1
         Serial.println("Button 1");
         break;
-      case 0xBB110AA0:
+      case 0xBB110AA0: //Button 2
         Serial.println("Button 2");
         break;
       case 0xB8120AA0:  //Button 3

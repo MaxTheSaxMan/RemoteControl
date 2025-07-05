@@ -60,8 +60,8 @@ void loop() {
       case 0xBA100AA0:  //Button 1
         ledToggle(redPin);
         break;
-      case 0xBB110AA0:
-        ledToggle(greenPin);  //Button 2
+      case 0xBB110AA0: //Button 2
+        ledToggle(greenPin);  
         break;
       case 0xB8120AA0:  //Button 3
         ledToggle(bluePin);
